@@ -31,6 +31,8 @@
 	**Python3.sublime-build**<br>
 	, and save it at<br>
 	**~/<ENTER_YOUR_USER_NAME>/Library/Application Support/Sublime Text 3/Packages/User**
+	<img src="https://github.com/floraazhang/upgrade_python_on_mac/raw/master/img/3.png"/>
+
 6. Tools -> Build
 7. File -> New File<br>
 	Write:
