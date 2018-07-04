@@ -1,8 +1,8 @@
 # Upgrade python on Mac & Set the latest version as default in terminal and Sublime Text
-> **Open Terminal**
+> **Open Terminal**<br>
 
 
-<br>
+
 ### Use Homebrew to install the latest version of Python:
 If you don't have Homebrew yet, it's not late to install it now. Installing Homebrew with one command line and save your life.
 	
@@ -11,16 +11,16 @@ If you don't have Homebrew yet, it's not late to install it now. Installing Home
 Install python with homebrew
 
 	$ brew install python3
-
-
 <br>
+
+
 ### Set the latest version as default:
 
 	$ cp /usr/local/bin/python3.7 /usr/local/bin/python3
 	$ cp /usr/local/bin/python3 /usr/local/bin/python
-
-
 <br>	
+
+
 ### Link the latest version in Sublime Text:
 1. Open Sublime Text
 2. Tools -> Build System -> New Build System...
