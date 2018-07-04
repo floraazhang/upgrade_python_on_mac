@@ -2,21 +2,29 @@
 > **Open Terminal**
 
 
+<br>
+### Use Homebrew to install the latest version of Python:
+If you don't have Homebrew yet, it's not late to install it now. Installing Homebrew with one command line and save your life.
+	
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-### Use Homebrew to upgrade the latest version of Python:
+Install python with homebrew
 
 	$ brew install python3
 
 
+<br>
 ### Set the latest version as default:
 
 	$ cp /usr/local/bin/python3.7 /usr/local/bin/python3
 	$ cp /usr/local/bin/python3 /usr/local/bin/python
-	
+
+
+<br>	
 ### Link the latest version in Sublime Text:
 1. Open Sublime Text
 2. Tools -> Build System -> New Build System...
-<img src="https://github.com/floraazhang/upgrade_python_on_mac/raw/master/img/1.png"/>
+	<img src="https://github.com/floraazhang/upgrade_python_on_mac/raw/master/img/1.png"/>
 3. In the new file, write:
 	
 		{
@@ -26,15 +34,15 @@
 		}
 	
 	<img src="https://github.com/floraazhang/upgrade_python_on_mac/raw/master/img/2.png"/>
-	
-5. Save the file with meaningful name such as<br>
+4. Save the file with meaningful name such as<br>
 	**Python3.sublime-build**<br>
 	, and save it at<br>
 	**~/<ENTER_YOUR_USER_NAME>/Library/Application Support/Sublime Text 3/Packages/User**
+	
 	<img src="https://github.com/floraazhang/upgrade_python_on_mac/raw/master/img/3.png"/>
 
-6. Tools -> Build
-7. File -> New File<br>
+5. Tools -> Build
+6. File -> New File<br>
 	Write:
 	
 		import sys
@@ -49,4 +57,5 @@
 		hello world
 		[Finished in 0.1s]
 	(3.7.0 is currently the latest version)
-8. Done
+	<img src="https://github.com/floraazhang/upgrade_python_on_mac/raw/master/img/4.png"/>
+7. Done
