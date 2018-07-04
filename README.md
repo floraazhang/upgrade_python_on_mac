@@ -16,6 +16,7 @@
 ### Link the latest version in Sublime Text:
 1. Open Sublime Text
 2. Tools -> Build System -> New Build System...
+<img src="https://github.com/floraazhang/upgrade_python_on_mac/raw/master/img/1.png"/>
 3. In the new file, write:
 	
 		{
@@ -23,6 +24,9 @@
 		    "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
 		    "selector": "source.python"
 		}
+	
+	<img src="https://github.com/floraazhang/upgrade_python_on_mac/raw/master/img/2.png"/>
+	
 5. Save the file with meaningful name such as<br>
 	**Python3.sublime-build**<br>
 	, and save it at<br>
