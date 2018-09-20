@@ -16,8 +16,8 @@ Install python with homebrew
 
 ### Set the latest version as default:
 
-	$ cp /usr/local/bin/python3.7 /usr/local/bin/python3
-	$ cp /usr/local/bin/python3 /usr/local/bin/python
+	$ rm '/usr/local/bin/python'
+	$ brew link python@2
 <br>	
 
 
